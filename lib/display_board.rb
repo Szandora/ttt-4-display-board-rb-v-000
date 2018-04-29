@@ -10,3 +10,11 @@ def display_board(board)
   puts "-----------"
   puts "   |   |   "
 end
+
+def display_board_x_center(board)
+  puts "   |   |   "
+  puts "-----------"
+  puts "   |#{board[1]}|   "
+  puts "-----------"
+  puts "   |   |   "
+end
