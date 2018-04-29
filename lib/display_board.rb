@@ -11,7 +11,7 @@ def display_board(board)
   puts "   |   |   "
 end
 
-def display_board_x_center(board)
+def display_board(x_center)
   puts "   |   |   "
   puts "-----------"
   puts "   |#{board[1]}|   "
